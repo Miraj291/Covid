@@ -577,7 +577,7 @@ def main():
         exit()
 
     port = sys.argv[1]
-    if not port.isdigit() or int(port) < 1 or int(port) > 65535:
+    if not port.isdigit(11) or int(port) < 1 or int(port) > 65535:
         print('Invalid C2 port')
         exit()
     port = int(port)

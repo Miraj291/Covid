@@ -576,12 +576,7 @@ def main():
         print(f'Usage: python {sys.argv[0]} <c2 port>')
         exit()
 
-    port = sys.argv[1]
-    if not port.isdigit(11) or int(port) < 1 or int(port) > 65535:
-        print('Invalid C2 port')
-        exit()
-    port = int(port)
-    
+   
     init(convert=True)
 
     sock = socket.socket()

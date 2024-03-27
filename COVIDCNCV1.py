@@ -573,7 +573,7 @@ def handle_client(client, address):
                
 def main():
     if len(sys.argv) != 2:
-        print(f'Usage: python {sys.argv[0]} <c2 port>')
+        print(f'Usage: python {sys.argv[0]} ')
         exit()
 
    

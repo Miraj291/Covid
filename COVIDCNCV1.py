@@ -571,10 +571,6 @@ def handle_client(client, address):
         threading.Thread(target=command_line, args=(client, username)).start()
 
                
-def main():
-    if len(sys.argv) != 2:
-        print(f'Usage: python {sys.argv[0]} ')
-        exit()
 
    
     init(convert=True)
